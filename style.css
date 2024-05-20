@@ -24,6 +24,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+     z-index: 1000;
  
 }
 
@@ -42,7 +43,6 @@ header {
 }
 
 .nav-item{
-
     margin: 0 10px;
 }
 .nav-link{
@@ -101,5 +101,68 @@ header {
 
 .about-img {
     max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto; 
 }
  
+img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto; 
+}
+
+.what-Ido{
+    background-color: #8338ec; 
+    color: #fff;
+    padding: 0px 30px; 
+    font-size: 1em; 
+    border-radius: 25px; 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+    text-decoration: none;
+    width: 198.5px;
+    height: 49.33px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+}
+
+.what-Ido:active {
+    background-color: #995cef; 
+    
+}
+
+.nav-link.selected, .button {
+    transition: 0.2s;
+}
+.greeting {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+p {
+    line-height: 1.4;
+}
+
+.about-name {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #8338ec;
+    white-space: nowrap; /* Evita el salto de línea */
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.about-description {
+    color: #616161;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
