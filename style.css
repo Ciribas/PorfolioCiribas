@@ -30,6 +30,7 @@ header {
 .nav-header{
     display: flex;
     justify-content: flex-end; 
+    padding-right: 150px;
 }
 
 .nav-menu {
@@ -37,22 +38,34 @@ header {
     margin: 0;
     list-style-type: none;
     gap: 20px;
+    align-items: center; 
 }
 
+.nav-item{
 
+    margin: 0 10px;
+}
 .nav-link{
     text-decoration: none;
+    color: #101011; 
+    
 }
 .nav-link-contacto {
-    background-color: #995cef; 
+    background-color: #8338ec; 
     color: #fff;
-    padding: 10px 20px; 
-    border-radius: 20px; 
+    padding: 0px 30px; 
+    font-size: 1em; 
+    border-radius: 25px; 
     text-align: center; 
     transition: background-color 0.3s ease; 
     text-decoration: none;
+    width: 151.45px;
+    height: 40px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.nav-link-contacto:hover {
+    background-color: #995cef; 
 }
 
-.nav-link-contacto:hover {
-    background-color: #8338ec; 
-}
