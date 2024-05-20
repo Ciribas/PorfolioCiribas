@@ -50,6 +50,13 @@ header {
     color: #101011; 
     
 }
+
+
+
+ .nav-link:active,.nav-link:focus,.nav-link:hover {
+    color: #8338ec; 
+    outline: none; 
+}
 .nav-link-contacto {
     background-color: #8338ec; 
     color: #fff;
@@ -65,7 +72,10 @@ header {
     align-items: center; 
     justify-content: center; 
 }
-.nav-link-contacto:hover {
+.nav-link-contacto:active {
     background-color: #995cef; 
+    
 }
+
+
 
