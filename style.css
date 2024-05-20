@@ -75,7 +75,7 @@ header {
     
 }
 
-.about-section {
+ .about-section {
     min-height: calc(100vh - 90px);
     margin-top: 90px;
     display: flex; 
@@ -83,9 +83,7 @@ header {
     align-items: center; 
 }
 
-.column {
-    flex: 1; 
-}
+
 
 .main-content {
     display: flex;
@@ -104,4 +102,4 @@ header {
 .about-img {
     max-width: 500px;
 }
-
+ 
