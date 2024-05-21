@@ -245,3 +245,35 @@ p {
     font-size: 1.25em;
     font-weight: 700;
 }
+
+
+.quote {
+    
+    background-color: rgb(192, 166, 215);
+    padding: 110px 40px 130px;
+    font-size: 1.5rem;
+    color: white;
+   
+  }
+  
+
+  .quote-icon {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+
+
+  .frase-container {
+    text-align: center;
+  }
+  
+  .frase {
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  .autor {
+    font-size: 18px;
+    margin-top: 10px;
+  }
