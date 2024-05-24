@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio carolina iribas</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagenes/icons8-gato-16.ico.png" type="image/x-icon">
     <style>
+        /* link a iconos y herramientas externas */
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
-        
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <link rel="stylesheet" type='text/css'
+         href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
         <script src="https://kit.fontawesome.com/2fd78511c1.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+
+<!-- header y menu principal -->
     <header>
+
  <div class="column menu-icon-container">
 
 <navbar class="nav-header">
@@ -30,13 +34,15 @@
 </div>
 </header>
 
+<!-- sidebar para estilos -->
 
 <section class="sidebar-menu" id="sidebar-menu" aria-hidden="true"> </section>
      
+<!-- seccion about me -->
 
 <section class="section about-section" id="about">
 
-    <div class="column main-content">
+    <!-- <div class="column main-content"> -->
 
 <div class="about-info">
 
@@ -45,16 +51,15 @@
     <p class="about-description">Ingeniera en informatica,desarrolladora y amante de los animales</p>
     <a href="#myProject" class="what-Ido">LO QUE HAGO</a>
     </div>
-
-    <img src="imagenes/undraw_good_doggy_re_eet7.svg" alt="about-img">
-
+    <img class="imagen-principal" src="imagenes/undraw_good_doggy_re_eet7.svg" alt="about-img">
     </div>     
 
-    </div>
+    <!-- </div> -->
 
    </div>
     </section>
 
+    <!-- seccion conocimientos -->
 
     <section class="section skills-section" id="skills">
 
@@ -64,7 +69,6 @@
    <p class="skills-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, maxime!</p>
    
    <div class="grid skills-grid">
-   
 
     <div class="grid-item">   
      <i class="devicon-html5-plain colored icon"></i>
@@ -95,6 +99,8 @@
    </div>
    </section>
 
+   <!-- seccion quote -->
+
    <section class="quote">
     <div class="frase-container">
         <i class="fas fa-quote-right quote-icon"></i>
@@ -103,10 +109,11 @@
     </div>
 </section>
 
+
+<!-- seccion mis proyectos -->
+
 <section class="section project-section" id="myProject">
 
-  
-    
     <div class="column content">  
        
         <h2 class="section-title">Mis projectos</h2>
@@ -141,8 +148,12 @@
      </div>
 </section>
 
+<!-- seccion contacto -->
+
 <section class="contact-section" id="contact">
     <div class="contact-container">
+
+        <!-- bloque contact info -->
         <div class="contact-info">
             <h2 class="contact-title">Contactame</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor illum sint expedita assumenda esse dolore rerum pariatur, eum tenetur. Dolorum expedita rem atque ut id obcaecati voluptates iste laborum recusandae.</p>
@@ -154,41 +165,51 @@
             </div>
         </div>
 
-    
-       
+     <!-- bloque contact form (completar formulario) -->
         <div class="contact-form">
             <h2>Escribime</h2>
             <form action="https://submit-form.com/7LOM8VzbM" method="post">
+
                 <div class="name-fields">
+
                     <div class="textoContacto">
                         <label for="nombre" class="labelContacto">Nombre:</label>
                         <input type="text" id="nombre" name="nombre" required class="inputContacto" placeholder="Por Ej: Carolina">
                     </div>
+
                     <div class="textoContacto">
                         <label for="apellido" class="labelContacto">Apellido:</label>
                         <input type="text" id="apellido" name="apellido" required class="inputContacto" placeholder="Por Ej: Iribas">
                     </div>
+
                 </div>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required placeholder="Por Ej: Tucorreo@gmail.com">
+
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aquí"></textarea>
+
+                <!-- boton enviar formulario -->
                 <input type="submit" value="Enviar">
             </form>
         </div>
-    </div>
+
+    </div>  <!-- div del contact conteiner -->
 </section>
 
+<!-- seccion footer -->
 
 <footer class="footer">
+    <!-- menu navegacion desde el footer -->
     <nav class="footer-nav">
         <a href="#about">HOLA</a>
         <a href="#skills">CONOCIMIENTOS</a>
         <a href="#myProject">PROYECTOS</a>
         <a href="#contact">CONTACTO</a>
     </nav>
-
+     
+   <!-- social icon con enlaces externos -->
     <div class="social-icons">
         <a href="https://twitter.com/ciribas"target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="https://github.com/Ciribas/"target="_blank"><i class="fab fa-github "></i></a>
@@ -196,13 +217,9 @@
         <a href="https://www.gmail.com"target="_blank"><i class="fa fa-envelope-o "></i></a>
     </div>
 
-   
-
-
     <p class="made-with-love">Hecho con <i class="fas fa-heart"></i> por Carolina Iribas</p>
 </footer>
 
-
-
 </body>
+
 </html>

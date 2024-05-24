@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+ 
 }
 
 body {
@@ -15,6 +16,14 @@ html, body {
     height: 100%;
 }
 
+img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto; 
+}
+/* <!-- header y menu principal --> */
 header {
     background-color: #fff;
     padding: 25px 0;
@@ -75,6 +84,8 @@ header {
     
 }
 
+/* <!-- sidebar para estilos --> */
+
 .sidebar-menu {
     position: fixed;
     top: 0;
@@ -89,6 +100,8 @@ header {
     transform: translateX(100%);
     transition: 0.2s;
 }
+
+/* <!-- seccion about me --> */
 
  .about-section {
     min-height: calc(100vh - 90px);
@@ -121,13 +134,7 @@ header {
     height: auto; 
 }
  
-img {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    max-height: 500px;
-    height: auto; 
-}
+
 
 .what-Ido{
     background-color:rgb(192, 166, 215); 
@@ -181,6 +188,8 @@ h1{
     font-size: 16px;
     margin-bottom: 40px;
 }
+
+/* <!-- seccion conocimientos --> */
 
 
 
@@ -253,7 +262,7 @@ p {
     font-weight: 700;
 }
 
-
+/* <!-- seccion quote --> */
 .quote {
     
     background-color: rgb(192, 166, 215);
@@ -284,6 +293,10 @@ p {
     font-size: 18px;
     margin-top: 10px;
   }
+
+
+
+  /* <!-- seccion mis proyectos --> */
 
   .grid-item {
     display: flex;
@@ -335,6 +348,7 @@ p {
 }
 
 
+/* <!-- seccion contacto --> */
 
 .contact-section {
     display: flex;
@@ -479,7 +493,7 @@ p {
 }
 
 
-
+/* <!-- seccion footer --> */
 .footer {
     background-color: rgb(192, 166, 215);
     padding: 80px 20px 60px;
@@ -550,3 +564,20 @@ p {
     align-items: center;
     margin-top: 20px; 
   }
+ 
+  /* dispositivos grandes (desktop) */
+  @media (max-width: 1200px) {
+  
+  }
+
+
+  /* dispositivos medios(tablet) */
+  @media (max-width: 976px) {
+  
+  }
+
+  /* dispositivos pequeños(telefonos) */
+  @media (max-width: 576px) {
+  
+  }
+
