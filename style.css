@@ -45,6 +45,10 @@ header {
     padding-left: 450px;
 }
 
+.navContenedorMenu {
+    display: none;
+}
+
 .nav-menu {
     display: flex;
     margin: 0;
@@ -585,6 +589,10 @@ p {
         display: none;
     }
 
+    .navContenedorMenu {
+        display: block;
+    }
+
     .about-section{
         
         flex-direction: column;
@@ -769,6 +777,45 @@ padding-bottom:15%;
 
     font-size: 15px;
   }
+
+  
+  .menu{
+    display: none;
+  }
+  
+ .menuHamburguesa:checked ~ ul{
+    margin: 0;
+    display:block;
+  }
+  .menuHamburguesa {
+    display: none;
+   }
+
+   .labelContainer {
+    display: flex;
+    justify-content: end;
+   }
+   .labelMenu {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+  }
+  .menuItem {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    text-align: right;
+  }
   
   }
 
@@ -780,6 +827,10 @@ padding-bottom:15%;
         display: none;
     }
 
+
+    .navContenedorMenu {
+        display: block;
+    }
     .about-section{
         
         flex-direction: column;
@@ -962,12 +1013,59 @@ padding: 0px;
 
     font-size: 15px;
   }
+
+  
+  .menu{
+    display: none;
+  }
+  
+ .menuHamburguesa:checked ~ ul{
+    margin: 0;
+    display:block;
+  }
+  .menuHamburguesa {
+    display: none;
+   }
+
+   .labelContainer {
+    display: flex;
+    justify-content: end;
+   }
+   .labelMenu {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+  }
+  .menuItem {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    text-align: right;
+  }
   
 }
 
 
   /* dispositivos muy pequeños(telefonos) */
   @media (max-width: 320px) {
+
+    body {
+        padding: 0;
+    }
+
+    .navContenedorMenu {
+        display: block;
+    }
 
     header{
         display: none;
@@ -1143,4 +1241,43 @@ padding-bottom:15%;
     display: none;
   }
 
+  .menu{
+    display: none;
   }
+  
+ .menuHamburguesa:checked ~ ul{
+    margin: 0;
+    display:block;
+  }
+  .menuHamburguesa {
+    display: none;
+   }
+
+   .labelContainer {
+    display: flex;
+    justify-content: end;
+   }
+   .labelMenu {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+  }
+  .menuItem {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    text-align: right;
+  }
+   
+
+}
