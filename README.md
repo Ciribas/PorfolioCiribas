@@ -17,7 +17,7 @@
 
 ## Capturas de Pantalla
 
-![image]![alt text](image.png)
+![image]![alt text](imagenes/image.png)
 
 
 ## Despliegue
